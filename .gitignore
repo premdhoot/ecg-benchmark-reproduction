@@ -1,2 +1,6 @@
+# .gitignore
 *.npy
 *.pth
+*.pkl
+data/
+checkpoints/
