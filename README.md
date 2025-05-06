@@ -1,8 +1,7 @@
 # ECG Benchmark Reproduction
 
 This repository contains a full reproduction of the paper:  
-**"In-depth Benchmarking of Deep Neural Network Architectures for ECG Diagnosis"**  
-by Naoki Nonaka and Jun Seita (ML4H, 2021)
+**"In-depth Benchmarking of Deep Neural Network Architectures for ECG Diagnosis"** by Naoki Nonaka and Jun Seita (ML4H, 2021)
 
 ## Overview
 
