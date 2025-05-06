@@ -66,7 +66,7 @@ def main(args):
     os.makedirs("checkpoints", exist_ok=True)
 
     for epoch in range(args.epochs):
-        print(f"\n🌱 Epoch {epoch+1}/{args.epochs}")
+        print(f"\nEpoch {epoch+1}/{args.epochs}")
         train_loss = train(model, train_loader, criterion, optimizer, device)
         val_loss = validate(model, val_loader, criterion, device)
 
@@ -81,9 +81,9 @@ def main(args):
                 'optimizer_state_dict': optimizer.state_dict(),
                 'val_loss': best_val_loss
             }, "checkpoints/model_best.pth")
-            print(f"💾 Saved new best model at epoch {epoch+1} with val loss {val_loss:.4f}")
+            print(f"Saved new best model at epoch {epoch+1} with val loss {val_loss:.4f}")
 
-    print("\n✅ Training complete!")
+    print("\nTraining complete!")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
