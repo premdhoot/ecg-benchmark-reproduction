@@ -45,7 +45,7 @@ ecg-benchmark-reproduction/
     ```bash
     python eval.py
 
-📦 Dependencies
+## 📦 Dependencies
 Python 3.10.12
 
 PyTorch
@@ -56,7 +56,7 @@ Pandas, NumPy, Matplotlib
 
 (Full list in requirements.txt)
 
-📫 Author
+## 📫 Author
 Prem Dhoot
 University of Illinois Urbana-Champaign
 Email: premdhoot@illinois.edu
